@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+}
+html, body{
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+.row {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.col-sm-12 {
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+@media (min-width: 768px) {@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+  .col-sm-12 {
+    float: left;
+    width: 100%;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+} 
+.arrow{
+    left: 0px;
+    font-weight: bolder;
+    font-size: 20px;
+    padding: 10px;
+}
+.mainmenu{
+    float: right;
+}
+.menu{
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background-color: black;
+    margin: 3px 0;
+    margin-right: 10px;
+}
+.navbar{
+    margin-top: 10px;
+}
+input{
+    border: none;
+}
+hr{
+    margin-right: 6%;
+    margin-left: 12%;
+}
+.bimage{
+    width: 100%;
+    height: 60px;
+}
+.dimage{
+    box-shadow: 0px 0px 2px 1px grey;
+    margin-left: 15px;
+    margin-top: -30px;
+}
+.frontarrow{
+    transform: scaleX(-1);
+    -moz-transform: scaleX(-1);
+    -webkit-transform: scaleY(-1);
+    -ms-transform: scaleX(-1);
+    margin-right: 10px;
+}
+.name{
+    padding-left: 5px;
+}
+.info{
+    font-size: 15px;
+    color: grey;
+    display: flex;
+}
+.dot{
+    width:4px;
+    height: 4px;
+    border-radius: 50%;
+    background-color: grey;
+    margin-top: 7px;
+}
+h1{
+    margin-bottom: 5px;
+}
+.followers{
+    font-size: 15px;
+    padding-top: 5px;
+    text-decoration: none;
+}
+.card{
+    box-shadow: 0px 2px 5px 0px grey;
+    padding-bottom: 5px;
+}
+.postby{
+    padding-left: 5px;
+    box-shadow: 0px 0px 5px 0px grey;
+}
+.post{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    padding-top: 3px;
+    font-size: medium;
+}
+.footer{
+    padding: 5px;
+    bottom: 0px;
+    position: fixed;
+    background-color: white;
+    width: 100%;
+}
+.last{
+    background-color: blue;
+    color: white;
+    height: 45px;
+    width: 45px;
+    font-size: 20px;
+    border-radius: 50%;
+    float: right;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 10px;
+    padding-left: 5px;
+    margin-top: -40px;
+    box-shadow: 0px 2px 5px 1px grey;
+}
